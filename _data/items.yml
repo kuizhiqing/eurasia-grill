@@ -1,0 +1,29 @@
+sushi: 
+  - 
+    title: 
+    img: 
+boisson:
+  - 
+    title:
+    img: 
+desserts:
+  - 
+    title: example
+    img: pic.jpg
+    price: 10
+  - 
+    title: example
+    img: pic.jpg
+    price: 10
+  - 
+    title: example
+    img: pic.jpg
+    price: 10
+  - 
+    title: example
+    img: pic.jpg
+    price: 10
+  - 
+    title: example
+    img: pic.jpg
+    price: 10
