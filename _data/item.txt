@@ -146,7 +146,7 @@ sashimi:
 
 chirashi:
     - title: CHIRASHI SAUMON 
-      price: "13,5"
+      price: "13,51”
       img: 2011_8_1_0_32_50.jpg 
     - title: CHIRASHI THON 
       price: "14,5"
