@@ -1,3 +1,113 @@
+menu:
+    MENU DU CHEF: 
+        price: "68,8"
+        items: 
+            - NEMS AU POULE
+            - NEMS AU CREVETTE 
+            - SAMOUSSAS
+            - BEIGNET DE CREVETTE 
+            - FRUIT DE MER
+            - BOEUF A LA SAUCE SATE
+            - RIZ CANTONNAIS OU NOUILLE SAUTE
+            - 6P MAKI SAUMON
+            - 6P CALIFORNIA (SAUMON AVOCAT)
+            - 2P SUSHI SAUMON
+            - 2P SUHI CREVETTES
+            - 2P SUSHI DAURADE
+            - 2P MAQUEREAU
+            - 10 TRANCHES DE SASHIMI SAUMON
+            - NOUGAT AUS SESAME OU 12 LYCHEE
+    MENU ICHI:
+        price: "10,9"
+        items:
+            - 6 CALIFORNIA SAUMON AVOCAT
+            - SUSHI SAUMON
+    MENU NI:
+        price: "10,9"
+        items:
+            - 6 CALIFORNIA SAUMON AVOCAT
+            - 6 MAKI SAUMON
+            - 6 SAUMON ROLLS CHEESE
+    MENU SAN: 
+        price: "10,9"
+        items:
+            - 6 CALIFORNIA SAUMON AVOCAT
+            - 6 GALETTES SAUMON AVOCAT
+            - 6 MAKI CONCOMBRE
+    MENU SHI: 
+        price: "10,9"
+        items:
+            - 6 CALIFORNIA SURIMI AVOCAT
+            - 3 SUSHI SAUMON
+            - 1 SUSHI THON 
+            - 1 SUSHI CREVETTE 
+            - 1 SUSHI AVOCAT
+    MENU GO: 
+        price: "10,9"
+        items:
+            - 8P SUSHI SAUMON
+    MENU ROKU: 
+        price: "13,5"
+        items:
+            - 6 CALIFORNIA SAUMON AVOCAT
+            - 6 CALIFORNIA THON AVOCAT
+            - 6 CALIFORNIA POULET AVOCAT
+    MENU SHICHI: 
+        price: "15"
+        items:
+            - 6 CALIFORNIA SAUMON AVOCAT
+            - 3 SUSHI SAUMON
+            - 2 SUSHI THON
+            - 2 SUSHI CREVETTE
+    MENU KU: 
+        price: "12,5"
+        items:
+            - 4 SUSHI SAUMON
+            - 4 SUSHI THON
+
+chinois:
+    RIZ ET NOUILLES:
+        Riz cantonnais: "4,0"
+        Riz nature: "1,8"
+        Nouilles sautées nature: "6,9"
+        Nouilles sautées au boeuf: "6,9"
+        Nouilles sautées au poulet: "6,9"
+        Nouilles sautées au fruit de mer: "8,9"
+    ENTRÉES: 
+        Samoussas au boeuf x5 : "5,5"
+        Nems au poulet x5: "5,5"
+        Nems au crevettes x5: "5,5"
+        Beignet de crevettes x5: "5,9"
+        Halal x5: "5,9"
+        Bouchées vapeurs x5: "5,9"
+        Potage pékinois: "4,8"
+        Soupe miso: "2,2"
+    PLATS/VIANDES:
+        Poulet aux champignons noirs: "9,8"
+        Poulet aux saté: "9,8"
+        Poulet aux curry: "9,8"
+        Poulet à la citronnelle: "9,8"
+        Poulet à l'ananas: "9,8"
+        Boeuf aux champignons noirs: "11,8"
+        Boeuf aux saté: "11,8"
+        Boeuf à la sauce piquante: "11,8"
+        Boeuf aux curry: "11,8"
+        Boeuf aux basilic thaïlandaise: "11,8"
+        Travers de porc à la sauce aigre douce: "9,8"
+        Travers de porc aux sel et poivre: "9,8"
+        Canard laqué: "9,8"
+    PLATS/FRUIT DE MER:
+        Crevettes aux sel et poivre: "13,9"
+        Crevettes à la sauce piquante: "13,9"
+        Crevettes sautées aux légumes chinois: "11,8"
+        Crevettes à la sauce aigre douce: "11,8"
+        Calamar aux sel et poivre: "11,8"
+        Fruit de mer sautées aux légumes chinois: "10,5"
+        Fruit de mer saté : "9,8"
+        Saint Jacques à la sauce d'huîtres: "15,5"
+        Saint Jacques saté: "9,8"
+        Poisson à la sauce aigre-douce: "9,8"
+
 sushi: 
   - title: 2P SUSHI SAUMON 
     price: "2,80"
@@ -146,7 +256,7 @@ sashimi:
 
 chirashi:
     - title: CHIRASHI SAUMON 
-      price: "13,51”
+      price: "13,5"
       img: 2011_8_1_0_32_50.jpg 
     - title: CHIRASHI THON 
       price: "14,5"

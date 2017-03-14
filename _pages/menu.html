@@ -6,123 +6,18 @@ permalink: /menu/
 ---
 <div class="container-fluid" >
     <div class="container">
-
+        {% for i in site.data.items.menu %}
         <div class="col-md-4">
             <div class="menu-chi menus">
-                <h2> MENU DU CHEF </h2>
-                <div class="menu-price">68,8€</div>
+                <h2>{{ i[0] }}</h2>
+                <div class="menu-price">{{ i[1].price }}€</div>
                 <ul>
-                    <li>NEMS AU POULE</li>
-                    <li>NEMS AU CREVETTE </li>
-                    <li>SAMOUSSAS</li>
-                    <li>BEIGNET DE CREVETTE </li>
-                    <li>FRUIT DE MER</li>
-                    <li>BOEUF A LA SAUCE SATE</li>
-                    <li>RIZ CANTONNAIS OU NOUILLE SAUTE</li>
-                    <li>6P MAKI SAUMON</li>
-                    <li>6P CALIFORNIA (SAUMON AVOCAT)</li>
-                    <li>2P SUSHI SAUMON</li>
-                    <li>2P SUHI CREVETTES</li>
-                    <li>2P SUSHI DAURADE</li>
-                    <li>2P MAQUEREAU</li>
-                    <li>10 TRANCHES DE SASHIMI SAUMON</li>
-                    <li>NOUGAT AUS SESAME OU 12 LYCHEE</li>
+                    {% for it in i[1].items %}
+                    <li>{{ it }}</li>
+                    {% endfor %}
                 </ul>
             </div>
         </div>
-
-        <div class="col-md-4">
-            <div class="menu-chi menus">
-                <h2>MENU ICHI </h2>
-                <div class="menu-price">10,9€</div>
-                <ul>
-                    <li>6 CALIFORNIA SAUMON AVOCAT</li>
-                    <li>SUSHI SAUMON</li>
-                </ul>
-            </div>
-        </div>
-
-
-        <div class="col-md-4">
-            <div class="menu-chi menus">
-                <h2>MENU NI </h2>
-                <div class="menu-price">10,9€</div>
-                <ul>
-                    <li>6 CALIFORNIA SAUMON AVOCAT</li>
-                    <li>6 MAKI SAUMON</li>
-                    <li>6 SAUMON ROLLS CHEESE</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="menu-chi menus">
-                <h2>MENU SAN </h2>
-                <div class="menu-price">10,9€</div>
-                <ul>
-                    <li>6 CALIFORNIA SAUMON AVOCAT</li>
-                    <li>6 GALETTES SAUMON AVOCAT</li>
-                    <li>6 MAKI CONCOMBRE</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="menu-chi menus">
-                <h2> MENU SHI</h2>
-                <div class="menu-price">10,9€</div>
-                <ul>
-                    <li>6 CALIFORNIA SURIMI AVOCAT</li>
-                    <li>3 SUSHI SAUMON</li>
-                    <li>1 SUSHI THON </li>
-                    <li>1 SUSHI CREVETTE </li>
-                    <li>1 SUSHI AVOCAT</li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="menu-chi menus">
-                <h2>MENU GO </h2>
-                <div class="menu-price">10,9€</div>
-                <ul>
-                    <li>8P SUSHI SAUMON</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="menu-chi menus">
-                <h2> MENU ROKU</h2>
-                <div class="menu-price">13,5€</div>
-                <ul>
-                    <li>6 CALIFORNIA SAUMON AVOCAT</li>
-                    <li>6 CALIFORNIA THON AVOCAT</li>
-                    <li>6 CALIFORNIA POULET AVOCAT</li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="menu-chi menus">
-                <h2>MENU SHICHI </h2>
-                <div class="menu-price">15€</div>
-                <ul>
-                    <li>6 CALIFORNIA SAUMON AVOCAT</li>
-                    <li>3 SUSHI SAUMON</li>
-                    <li>2 SUSHI THON</li>
-                    <li>2 SUSHI CREVETTE</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="menu-chi menus">
-                <h2> MENU KU</h2>
-                <div class="menu-price">12,5€</div>
-                <ul>
-                    <li>4 SUSHI SAUMON</li>
-                    <li>4 SUSHI THON</li>
-                </ul>
-            </div>
-        </div>
+        {% endfor %}
     </div>
 </div>

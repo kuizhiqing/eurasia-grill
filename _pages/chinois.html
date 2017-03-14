@@ -7,71 +7,18 @@ permalink: /chinois/
 <div class="container-fluid" >
     <div class="container">
         <div class="row">
+            {% for i in site.data.items.chinois %}
             <div class="col-md-6">
                 <div class="menu-chi isotope-item mains">
-                    <h2> RIZ ET NOUILLES</h2> 
+                    <h2>{{ i[0] }}</h2> 
                     <ul class="menu-ul">
-                        <li> <div class="menu-li"> <h3>Riz cantonnais</h3> <span>4€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Riz nature</h3> <span>1,8€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Nouilles sautées nature</h3> <span>6,9€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Nouilles sautées au boeuf</h3> <span>6,9€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Nouilles sautées au poulet</h3> <span>6,9€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Nouilles sautées au fruit de mer</h3> <span>8,9€</span>  </div> </li>
+                    {% for it in i[1] %}
+                    <li> <div class="menu-li"> <h3>{{ it[0] }}</h3> <span>{{ it[1] }}€</span>  </div> </li>
+                    {% endfor %}
                     </ul>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="menu-chi isotope-item mains">
-                    <h2> ENTRÉES</h2> 
-                    <ul class="menu-ul">
-                        <li> <div class="menu-li"> <h3>Samoussas au boeuf x5 </h3> <span>5,5€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Nems au poulet x5</h3> <span>5,5€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Nems au crevettes x5</h3> <span>5,5€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Beignet de crevettes x5</h3> <span>5,9€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Halal x5</h3> <span>5,9€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Bouchées vapeurs x5</h3> <span>5,9€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Potage pékinois</h3> <span>4,8€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Soupe miso</h3> <span>2,2€</span>  </div> </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="menu-chi isotope-item mains">
-                    <h2> PLATS/VIANDES </h2> 
-                    <ul class="menu-ul">
-                        <li> <div class="menu-li"> <h3>Poulet aux champignons noirs</h3> <span>9,8€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Poulet aux saté</h3> <span>9,8€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Poulet aux curry</h3> <span>9,8€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Poulet à la citronnelle</h3> <span>9,8€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Poulet à l'ananas</h3> <span>9,8€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Boeuf aux champignons noirs</h3> <span>11,8€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Boeuf aux saté</h3> <span>11,8€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Boeuf à la sauce piquante</h3> <span>11,8€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Boeuf aux curry</h3> <span>11,8€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Boeuf aux basilic thaïlandaise</h3> <span>11,8€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Travers de porc à la sauce aigre douce</h3> <span>9,8€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Travers de porc aux sel et poivre</h3> <span>9,8€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Canard laqué</h3> <span>9,8€</span>  </div> </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="menu-chi isotope-item mains">
-                    <h2> PLATS/FRUIT DE MER</h2> 
-                    <ul class="menu-ul">
-                        <li> <div class="menu-li"> <h3>Crevettes aux sel et poivre</h3> <span>13,9€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Crevettes à la sauce piquante</h3> <span>13,9€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Crevettes sautées aux légumes chinois</h3> <span>11,8€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Crevettes à la sauce aigre douce</h3> <span>11,8€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Calamar aux sel et poivre</h3> <span>11,8€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Fruit de mer sautées aux légumes chinois</h3> <span>10,5€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Fruit de mer saté </h3> <span>9,8€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Saint Jacques à la sauce d'huîtres</h3> <span>15,5€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Saint Jacques saté</h3> <span>9,8€</span>  </div> </li>
-                        <li> <div class="menu-li"> <h3>Poisson à la sauce aigre-douce</h3> <span>9,8€</span>  </div> </li>
-                    </ul>
-                </div>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </div>
