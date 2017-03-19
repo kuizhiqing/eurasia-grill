@@ -1,4 +1,4 @@
-menu:
+﻿menu:
     MENU DU CHEF: 
         price: "68,8"
         items: 
@@ -110,163 +110,161 @@ chinois:
 
 sushi: 
   - title: 2P SUSHI SAUMON 
-    price: "2,80"
+    price: "3,4"
     img: 2011_7_31_4_53_13.jpg
   - title: 2P SUSHI THON 
-    price: "3,30"
+    price: "3,90"
     img: 2011_8_2_5_23_6.jpg
   - title: 2P SUSHI DAURADE 
-    price: 3 
+    price: 3,60 
     img: 2011_7_31_4_55_15.jpg
   - title: 2P SUSHI CREVETTE 
-    price: "3,30"
+    price: "3,90"
     img: 2011_7_31_4_56_48.jpg
   - title: 2P SUSHI OMELETTE 
-    price: "2,5"
+    price: "3,10"
     img: 2011_8_2_5_32_47.jpg
   - title: 2P SUSHI SAUMON AVOCAT 
-    price: "3,30"
+    price: "3,90"
     img: 2011_7_31_5_1_34.jpg
   - title: 2P SUSHI AVOCAT 
-    price: "2,5"
+    price: "3,10"
     img: 2011_7_31_5_2_40.jpg
   - title: 2P SUSHI TATARE DE SAUMON 
-    price: "3,5"
+    price: "4,10"
     img: 2011_7_31_4_42_48.jpg
   - title: 2P SUSHI TARTARE DE THON 
-    price: 4
+    price: 4,60
     img: 2011_7_31_4_51_35.jpg
 
 futomaki:
     - title: 5P FUTOMAKI CREVETTE CONCOMBRE AVOCAT CHEESE 
-      price: 7 
+      price: 7,60 
       img: 2011_7_31_6_34_29.jpg
     - title: 5P FUTOMAKI SAUMON THON AVOCAT CONCOMBRE 
       price: 7
-      img: 2011_7_31_6_21_0.jpg
+,60      img: 2011_7_31_6_21_0.jpg
     - title: 5P FUTOMAKI CREVETTE TEMPURA AVOCAT CONCOMBRE 
-      price: "7,30"
+      price: "7,90"
       img: none.jpg
 
 maki:
     - title: 6P MAKI SAUMON 
-      price: "3,50"
+      price: "4,10"
       img: 2011_7_31_6_44_31.jpg
     - title: 6P MAKI THON 
       price: 4
-      img: 2011_7_31_6_46_11.jpg
+,60     img: 2011_7_31_6_46_11.jpg
     - title: 6P MAKI AVOCAT 
-      price: 3
+      price: 3,60
       img: 2011_7_31_6_48_11.jpg
     - title: 6P MAKI CONCOMBRE 
-      price: 3
+      price: 3,60
       img: 2011_7_31_6_51_52.jpg
     - title: 6P MAKI CHEESE 
-      price: "3,5"
+      price: "4,10"
       img: 2011_8_1_11_41_6.jpg
     - title: 6P MAKI TATARE DE SAUMON 
-      price: 4 
+      price: 4,60 
       img: 2011_8_1_11_44_3.jpg
     - title: 6P MAKI SAUMON CHEESE 
-      price: 4
+      price: 4,60
       img: 2011_8_1_11_44_28.jpg
     - title: 6P MAKI SAUMON ROLL CONCOMBRE CHEESE 
-      price: "5,5"
+      price: "6,10"
       img: 2011_8_1_11_44_51.jpg
     - title: 6P MAKI SAUMON ROLL AVOCAT CHEESE 
-      price: "5,5"
+      price: "6,10"
       img: 2011_8_1_11_45_32.jpg
     - title: 6P MAKI SAUMON ROLL CHEESE 
-      price: 5
+      price: 4,60
       img: 2011_8_1_11_47_3.jpg
     - title: 6P MAKI CEVETTE CONCOMBRE 
-      price: "4,5"
+      price: "5,10"
       img: 2011_8_1_11_46_2.jpg
 
 california:
     - title: 6P CALIFORNIA SAUMON AVOCAT 
       price: 4
-      img: 2011_8_1_0_16_11.jpg
+,60      img: 2011_8_1_0_16_11.jpg
     - title: 6P CALIFORNIA SURIMI AVOCAT AU SESAME 
       price: 4
-      img: 2011_8_1_0_18_42.jpg
+,60      img: 2011_8_1_0_18_42.jpg
     - title: 6P CALIFORNIA THON AVOCAT 
-      price: "4,5"
+      price: "5,10"
       img: 2011_8_1_0_19_24.jpg
     - title: 6P CALIFORNIA CREVETTE AVOCAT 
-      price: "4,5"
+      price: "4,60"
       img: 2011_8_1_0_20_14.jpg
     - title: 6P CALIFORNIA CREVETTE TEMPURA 
-      price: "5,3"
+      price: "5,90"
       img: none.jpg
     - title: 6P CALIFORNIA SMILE ROLLS (AVOCAT CONCOMBRE CHEESE OEUF DE SAUMON) 
-      price: 6
+      price: 6,60
       img: 2011_8_1_0_25_14.jpg
 
 galette:
     - title: 6P GALETTE ROLLS AU SAUMON 
       price: 5
-      img: 2011_8_1_11_49_29.jpg
+,60      img: 2011_8_1_11_49_29.jpg
     - title: 6P GALETTE ROLLS AU THON 
-      price: "5,4"
+      price: "6"
       img: 2011_8_1_11_51_2.jpg
     - title: 6P GALETTE ROLLS AVOCAT CHEESE 
-      price: "4,5"
+      price: "5,10"
       img: 2011_8_1_0_2_1.jpg
     - title: 6P GALETTE ROLLS CONCOMBRE CHEESE 
-      price: "4,5"
+      price: "5,10"
       img: 2011_8_1_11_59_59.jpg
     - title: 6P GALETTE ROLLS CREVETTE TEMPURA 
-      price: 6
+      price: 6,60
       img: none.jpg
 
 temaki:
     - title: TEMAKI SAUMON AVOCAT 
-      price: 4
+      price: 4,60
       img: 2011_8_1_1_6_29.jpg
     - title: TEMAKI THON AVOCAT 
-      price: "4,5"
+      price: "5,10"
       img: 2011_8_1_1_7_24.jpg
     - title: TEMAKI TATARE THON AVOCAT 
-      price: 5
-      img: 2011_8_1_1_8_39.jpg
+      price: 5,10     img: 2011_8_1_1_8_39.jpg
     - title: TEMAKI CREVETTE AVOCAT 
-      price: "4,5"
+      price: "5,10"
       img: 2011_8_1_1_9_34.jpg
     - title: TEMAKI TATARE DE SAUMON 
-      price: "4,5"
+      price: "4,60"
       img: 2011_8_1_1_7_58.jpg
 
 sashimi: 
-    - title: 9P SASHIMI SAUMON 
-      price: "4,5"
+    - title: 10P SASHIMI SAUMON 
+      price: "9,60"
       img: 2011_8_1_0_4_56.jpg
-    - title: 11P SASHIMI THON 
-      price: "5,5"
+    - title: 10P SASHIMI THON 
+      price: "11,60"
       img: 2011_8_1_0_5_45.jpg
     - title: 10P SASHIMI MIXTE (SAUMON ET THON)  
       price: 10
-      img: 2011_8_1_0_8_7.jpg
-    - title: 9P SASHIMI DAURADE 
-      price: "4,5"
+,60      img: 2011_8_1_0_8_7.jpg
+    - title: 10P SASHIMI DAURADE 
+      price: "9,60"
       img: none.jpg
     - title: 10P SASHIMI MAQUEREAU 
-      price: 5
-      img: none.jpg
+      price: 10,60      img: none.jpg
 
 chirashi:
     - title: CHIRASHI SAUMON 
-      price: "13,5"
+      price: "14,10"
       img: 2011_8_1_0_32_50.jpg 
     - title: CHIRASHI THON 
-      price: "14,5"
+      price: "15,10"
       img: 2011_8_1_0_33_49.jpg
     - title: CHIRASHI TARTARE SAUMON 
-      price: 14 
+      price: 14,60 
       img: none.jpg
     - title: CHIRASHI TARTARE THON
       price: 15
-      img: none.jpg
+,60      img: none.jpg
 
 boisson:
     - title: COCA COLA 33 cl 
